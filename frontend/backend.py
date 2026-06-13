@@ -700,6 +700,13 @@ def update_doctor(doctor_id):
     db.close()
     return jsonify({"doctor": row_to_dict(doc)})
 
+    @app.route("/")
+def home():
+    return {
+        "status": "success",
+        "message": "VisionCare Backend Running Successfully"
+    }
+
 
 if __name__ == "__main__":
     # initialize DB and start server
