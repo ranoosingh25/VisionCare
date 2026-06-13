@@ -700,7 +700,7 @@ def update_doctor(doctor_id):
     db.close()
     return jsonify({"doctor": row_to_dict(doc)})
 
-    @app.route("/")
+@app.route("/")
 def home():
     return {
         "status": "success",
