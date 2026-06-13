@@ -1,0 +1,66 @@
+.appointment-page {
+  background: #f5f7fa;
+  min-height: 100vh;
+}
+
+.appointment-hero {
+  background: linear-gradient(to right, #0a2a43, #2bb3a3);
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.appointment-hero h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.appointment-hero p {
+  font-size: 18px;
+}
+
+.appointment-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.appointment-form {
+  background: white;
+  width: 550px;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.appointment-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #0a2a43;
+}
+
+.appointment-form input,
+.appointment-form select,
+.appointment-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.appointment-btn {
+  width: 100%;
+  background: #2bb3a3;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.appointment-btn:hover {
+  background: #239688;
+}

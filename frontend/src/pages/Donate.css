@@ -1,0 +1,98 @@
+.donate-page {
+  background: #f5f7fa;
+  min-height: 100vh;
+}
+
+.donate-hero {
+  text-align: center;
+  padding: 70px 20px;
+  background: linear-gradient(to right, #0a2a43, #2bb3a3);
+  color: white;
+}
+
+.donate-hero h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.donate-hero p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 18px;
+}
+
+.donation-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 50px 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 280px;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  color: #2bb3a3;
+  font-size: 36px;
+}
+
+.card p {
+  margin: 15px 0;
+  color: #555;
+}
+
+.card button {
+  background: #0a2a43;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.donate-form-section {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px 70px;
+}
+
+.donate-form {
+  background: white;
+  width: 500px;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.donate-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #0a2a43;
+}
+
+.donate-form input,
+.donate-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.donate-btn {
+  width: 100%;
+  background: #2bb3a3;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}

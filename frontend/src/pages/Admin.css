@@ -1,0 +1,150 @@
+.admin-page {
+  padding: 2rem;
+  max-width: 1500px;
+  margin: 0 auto;
+  background: #f5f7fa;
+  min-height: 100vh;
+}
+
+/* HERO */
+.admin-hero {
+  background: linear-gradient(to right, #0a2a43, #2bb3a3);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+
+.admin-header h1 {
+  margin: 0;
+}
+
+
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.admin-form-grid {
+  display: grid;
+  gap: 1.75rem;
+  column-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr()));
+}
+
+.admin-form-full {
+  grid-column: span 2;
+}
+
+.admin-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #0a2a43;
+  font-weight: 600;
+}
+
+.admin-form input,
+.admin-form select,
+.admin-form textarea {
+  padding: 0.9rem 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 0.95rem;
+  transition: border-color 0.3s ease;
+  margin-bottom: 0.5rem;
+  background: white;
+  color: #6f879a;
+  box-shadow: 0 6px 18px rgba(11,18,32,0.04);
+}
+
+.admin-form input:focus,
+.admin-form select:focus,
+.admin-form textarea:focus {
+  outline: none;
+  border-color: #2bb3a3;
+}
+
+.admin-form-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.admin-submit,
+.admin-delete {
+  background: #2bb3a3;
+  color: white;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.admin-submit:hover {
+  background: #239485;
+  transform: translateY(-2px);
+}
+
+.admin-delete {
+  background: #ef4444;
+}
+
+.admin-delete:hover {
+  background: #dc2626;
+  transform: translateY(-2px);
+}
+
+.admin-feedback {
+  color: #059669;
+  margin: 0;
+  font-weight: 600;
+}
+
+.admin-section {
+  margin-bottom: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  border: 1px solid #ffffff;
+}
+
+.admin-section h2 {
+  margin-top: 0;
+  color: #0a2a43;
+  border-bottom: 2px solid #2bb3a3;
+  padding-bottom: 0.75rem;
+}
+
+.admin-table-wrapper {
+  overflow-x: auto;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.admin-table th {
+  background: #2bb3a3;
+  color: white;
+  font-weight: 600;
+}
+
+.admin-table tbody tr:hover {
+  background: #f9fafb;
+}

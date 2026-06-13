@@ -1,0 +1,96 @@
+.navbar {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.logo h2 {
+  color: #0a2a43;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #2bb3a3;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav-user {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #f0fdf4;
+  color: #0f5132;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: 1px solid #d1fae5;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn.outline {
+  background: white;
+  border: 1px solid #0a2a43;
+  color: #0a2a43;
+}
+
+.btn.filled {
+  background: #2bb3a3;
+  color: white;
+}
+
+.profile-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #f0fdf4;
+  border: 2px solid #2bb3a3;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.profile-icon-link:hover {
+  background: #2bb3a3;
+}
+
+.profile-icon {
+  font-size: 18px;
+  color: #0a2a43;
+  transition: color 0.3s ease;
+}
+
+.profile-icon-link:hover .profile-icon {
+  color: white;
+}
